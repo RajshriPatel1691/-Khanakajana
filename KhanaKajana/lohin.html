@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homenew.css">
+    <link rel="stylesheet" href="login.css">
+    <script>
+      function fun(){
+        window.location.assign("homenew.html");
+        alert("succesfully");
+      }
+    </script>
+  
+</head>
+<body>
+
+  <nav id="navbar">
+    <div id="logo">
+        <img src="image/plateslogo.jpg">
+    </div>
+    <ul>
+        <li class="item"><a href="homenew.html">Home</a></li>
+        <li class="item"><a href="service.html">Services</a></li>
+        <li class="item"><a href="client.html">Clients</a></li>
+        <li class="item"><a href="contact.html">Contact Us</a></li>
+        <!-- <li class="item"><a href="product.html">Our Menu</a></li> -->
+        
+
+       
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="Paneer.html">Paneer</a>
+                <a href="chiniss.html">Vegetable</a>
+                <a href="south.html">South-indian</a>
+                <a href="Chai.html">Chinese</a>
+                <a href="dissert.html">Dessert</a>
+                <a href="Biryani.html">Biryani</a>
+            </div>
+        </div>
+        <li class="item"><a href="aboutnew.html">about</a></li>
+        <li class="item login"><a href="lohin.html">log In</a></li>
+    </ul>
+</nav>
+
+  <!--  
+  <section class="nav">
+    <a href="homenew.html" class="logo"><img src="Khanakhajana.png" alt=""></a>
+    <ul class="navlist">
+        <li><a href="homenew.html">Home</a></li>
+        <div class="dropdown">
+            <button class="dropbtn">Product</button>
+            <div class="dropdown-content">
+               <a href="sambox.html">Lipstick</a> 
+              <a href="eyemakeup.html">Eye Shadow</a>
+              <a href="perfume.html">perfume</a>
+              <a href="nail.html">Nail Polish</a>
+              <a href="compact.html">compact</a>
+            </div>
+          </div>
+          <li><a href="about.html">About us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</section>
+
+ -->
+    <div id="login-form-wrap">   
+        <h2>LogIn</h2>
+        <form id="login-form">
+          <p>
+          <input type="text" id="email"  placeholder="Email Address" required><i class="validation"><span></span><span></span></i>
+          </p>
+          <p>
+          <input type="password" id="pass" name="pass" placeholder="Password" required><i class="validation"><span></span><span></span></i>
+          </p>
+          <p>
+          <input type="reset" id="login" value="LogIn" onclick="fun()">
+          </p>
+        </form>
+        <div id="create-account-wrap">
+          <p>Not a member? <a href="signup.html" id="lg">Create Account</a><p>
+        </div><!--create-account-wrap-->
+      </div>
+      <script >
+        function fun()
+    {
+        var login=document.getElementById("email").value;
+        var pass=document.getElementById("pass").value;
+        if(login=="rajshripatel@gmail.com" && pass=="raju@123")
+        {
+          alert("success");
+            window.location.assign("image/homenew.html");
+            
+        }
+        else{
+        alert("somethinf wrong try again");
+        }
+    }
+      </script>
+</body>
+</html>
