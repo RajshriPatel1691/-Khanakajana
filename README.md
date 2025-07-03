@@ -15,7 +15,7 @@
 ## 💻 UI Snapshot	
 
 
-![Home Page](image/Home.png)
+![Home Page](Home.png.png)
 
 
 
