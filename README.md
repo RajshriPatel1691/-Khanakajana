@@ -13,7 +13,7 @@
 🎨 Smooth animations and hover effects
 
 ## 💻 UI Snapshot	
-## 📸 Project Preview
+
 
 ![Home Page](assets/Home.png)
 
