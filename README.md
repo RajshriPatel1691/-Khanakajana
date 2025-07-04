@@ -16,9 +16,10 @@
 
 
 ![Home Page](Home.png.png)
-!(Home1.png.png)
-!(menu.png.png)
-!(About.png.png)
+![Home](Home1.png)
+![Menu](menu.png)
+![About](About.png)
+
 
 
 
